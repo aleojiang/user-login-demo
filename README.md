@@ -8,3 +8,8 @@ dva是一个基于 react 和 redux 的轻量应用框架，它最大的特性就
 
 antD的学习可以具体参考[官网](https://ant.design/index-cn)
 
+下面具体介绍下新建一个页面的具体操作
+
+1. 在src/pages/中以模块名（小写）建立一个文件夹，中间包括了component、models、services文件夹和.js文件。
+
+![image](https://user-images.githubusercontent.com/26807227/42788910-e7bc699e-8994-11e8-90ab-63e567cc7143.png)
