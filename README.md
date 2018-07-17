@@ -20,4 +20,6 @@ antD的学习可以具体参考[官网](https://ant.design/index-cn)
 
 4. 在services中新建一个服务，负责向后台请求数据，在services里调用后台提供的api获取数据
 
-5. utils
+5. utils工具类，比如常见的后台接口请求工具类
+
+6. 
