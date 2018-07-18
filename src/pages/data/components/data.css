@@ -1,0 +1,11 @@
+.title {
+    background-color: red;
+    padding: 10px 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(245, 182, 182);
+}
