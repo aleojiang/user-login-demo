@@ -7,5 +7,5 @@ import request from '../../../utils/request';
 
 export function fetch() { 
   return request('/api/users'); //两个参数，一个是后台提供的restful API地址，一个是参数
-
+  
 }

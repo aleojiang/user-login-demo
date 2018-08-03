@@ -1,5 +1,6 @@
 // 6.request.js
 import fetch from 'dva/fetch';
+import $ from 'jquery';
 
 function checkStatus(response) {
   if (response.status >= 200 && response.status < 300) {
@@ -20,12 +21,20 @@ function checkStatus(response) {
  * @return {object}           An object containing either "data" or "err"
  */
 export default async function request(url, options) {
+
+  // 用jaxa发请求
+  // const data = await $.ajax(url, options);
+  // console.log(666,data)
+  // const ret = {
+  //   data
+  // };
+
   const response = await fetch(url, options);
 
   checkStatus(response);
 
   const data = await response.json();
-  console.log(666,data)
+  console.log('data',data)
   const ret = { // 将服务器返回的头部信息和返回的data重新包装
     data,
     headers: {},

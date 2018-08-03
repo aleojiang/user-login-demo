@@ -60,7 +60,7 @@ function Users({ dispatch, list: dataSource, loading, total, page: current }) { 
         <span className={styles.operation}>
           <UserModal record={record} onOk={editHandler.bind(null, record.id)}>
             {/* 两次声明edit? */}
-            <a>Edit</a> 
+            <a>Edit</a>
           </UserModal>
           <Popconfirm title="Confirm to delete?" onConfirm={deleteHandler.bind(null, record.id)}>
             <a href="">Delete</a>
